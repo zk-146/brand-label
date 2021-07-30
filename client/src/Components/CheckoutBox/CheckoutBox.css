@@ -1,0 +1,74 @@
+.checkoutBox {
+  display: flex;
+  flex-direction: column;
+  /* width: 24rem; */
+  border-left: 1px solid #a9a9a9;
+  color: #254159;
+}
+
+.checkoutBox__container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 24rem;
+}
+
+.checkoutBox__header {
+  /* font-size: 1.75em; */
+  /* align-self: flex-end; */
+  /* margin-right: 4em; */
+  /* margin-left: 0.4em; */
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  color: #254159;
+}
+
+.checkoutBox__productsTable {
+  display: table;
+}
+
+.checkoutBox__productRow {
+  display: table-row;
+}
+
+.checkoutBox__productCell {
+  display: table-cell;
+}
+
+.checkoutBox__productName,
+.checkoutBox__productNameHeader {
+  width: 10rem;
+}
+
+.checkoutBox__productCellHeader {
+  display: table-cell;
+  font-weight: 500;
+}
+
+.checkoutBox__total {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #254159;
+}
+
+.checkoutBox__totalTopCell {
+  border-top: 1rem solid transparent;
+}
+
+.btn-checkoutBox {
+  align-self: flex-end;
+  width: auto;
+}
+
+.checkoutBox__link {
+  align-self: flex-end;
+  margin-top: 2.7rem;
+}
+
+@media screen and (max-width: 425px) {
+  .checkoutBox {
+    /* display: none; */
+    border-top: 1px solid #a9a9a9;
+  }
+}

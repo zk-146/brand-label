@@ -1,0 +1,11 @@
+.smartwatches {
+  display: flex;
+  height: 100vh;
+}
+
+.smartWatches__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+  width: 100%;
+}

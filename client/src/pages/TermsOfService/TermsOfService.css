@@ -1,0 +1,39 @@
+.termsofservice {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+}
+
+.termofservice__container {
+  display: flex;
+  flex-direction: column;
+  margin: 8rem 0;
+  width: 100%;
+}
+
+.termofservice__content {
+  margin-top: 2rem;
+  align-self: center;
+  width: 50rem;
+  font-size: 1.1rem;
+}
+
+.termofservice__para {
+  margin: 0.5rem 0 2.3rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .termofservice__content {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .termofservice__content {
+    width: 20rem;
+  }
+}
+
+.termofservice__subheader {
+  color: #254159;
+}

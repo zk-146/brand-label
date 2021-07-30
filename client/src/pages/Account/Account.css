@@ -1,0 +1,79 @@
+.account {
+  display: flex;
+  color: #254159;
+  width: 100%;
+  height: max-content;
+  margin-bottom: 2rem;
+}
+
+.account__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  width: 100%;
+}
+
+.account__containerBox {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  background-color: #ffffff;
+  width: 80rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.account__containerBoxLeft {
+  display: flex;
+  /* align-self: center; */
+  /* flex-direction: row; */
+  justify-content: space-around;
+  border-bottom: 1px solid #a9a9a9;
+  width: 100%;
+  /* border-right: 1px solid #a9a9a9; */
+}
+
+.account__boxLeftOption {
+  width: 50%;
+  padding: 1rem 0;
+  /* width: 18rem; */
+  text-align: center;
+  cursor: pointer;
+  color: #000;
+  /* border: 1px solid black; */
+}
+
+.account__profileActive {
+  border-top-left-radius: 8px;
+}
+
+.account__ordersActive {
+  border-top-right-radius: 8px;
+}
+
+.account__boxLeftOptionActive {
+  color: #fff;
+  background-color: #6573bf;
+}
+
+.account__boxLeftOption > p {
+  font-weight: 600;
+}
+
+.account__boxLeftOption:hover {
+}
+
+.account__boxLeftOptionLast {
+  border-bottom: none;
+}
+.account__containerBoxRight {
+  padding: 0 1rem;
+  /* width: 100%; */
+}
+
+@media only screen and (max-width: 768px) {
+  .account__containerBox {
+    width: 100%;
+  }
+}

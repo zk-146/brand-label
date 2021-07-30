@@ -1,0 +1,38 @@
+.all-dots {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  top: 42rem;
+}
+
+.dot {
+  cursor: pointer;
+  height: 0.8rem;
+  width: 0.8rem;
+  margin: 0 3px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.active-dot,
+.dot:hover {
+  background-color: rgba(109, 109, 109, 0.8);
+}
+@media only screen and (max-width: 1024px) {
+  .all-dots {
+    top: 45rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .all-dots {
+    top: 35rem;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .all-dots {
+    top: 32rem;
+  }
+}

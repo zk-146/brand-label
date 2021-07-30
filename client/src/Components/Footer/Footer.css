@@ -1,0 +1,65 @@
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #254159;
+  width: 100%;
+}
+
+.footer__wrapper {
+  display: flex;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 3rem 1rem 3rem;
+  color: #979797;
+}
+
+.link-footer {
+  color: #979797;
+  align-self: flex-start;
+  margin-top: 0.3rem;
+  margin-right: 1rem;
+  transition: all 200ms ease-out;
+}
+
+.link-footer:hover {
+  color: #f0f0f0;
+}
+
+.link-footer:hover > .MuiSvgIcon-root > path {
+  color: #f0f0f0;
+}
+
+.link-footer > p {
+  color: inherit;
+}
+
+.header-footer {
+  align-self: flex-start;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.footer__social {
+  margin: 2rem 0;
+}
+
+@media only screen and (max-width: 540px) {
+  .footer__container {
+    padding-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer__wrapper {
+    flex-direction: column;
+  }
+}

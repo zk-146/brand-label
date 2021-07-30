@@ -1,0 +1,109 @@
+.profile__container {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.03em;
+  color: #254159;
+  font-weight: 500;
+}
+
+.profile__table {
+  display: table;
+}
+
+.profile__container > div {
+  padding: 20px;
+}
+
+.profile__name {
+  display: flex;
+}
+
+.profile__name > div {
+  /* margin-right: 50px; */
+}
+
+.profile__btn {
+  align-self: center;
+  width: auto;
+  margin: 1.5em 0;
+}
+
+.profile__row {
+  display: table-row;
+}
+
+.profile__cell {
+  display: table-cell;
+  margin: 0 0 40px 0;
+  /* width: 17.5em; */
+}
+
+.changePassword__btn {
+  width: auto;
+  align-self: flex-start;
+}
+
+.profile__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+
+.icon__edit {
+  cursor: pointer;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.profile__cell > .MuiSvgIcon-root {
+  font-size: 1em;
+}
+
+.readOnly,
+.phoneInputReadOnly > input {
+  background-color: #808080;
+  box-shadow: none;
+  color: #000;
+  cursor: not-allowed;
+}
+
+.phoneInputReadOnly > input {
+  padding: 10px;
+  width: 17.5rem;
+  border: 0.5px transparent;
+  border-radius: 5px;
+  height: 1.56rem;
+  font-size: 1rem;
+  outline: none;
+  background-color: #808080;
+}
+.save__btn {
+  width: auto;
+}
+.cancel__btn {
+  margin-right: 1em;
+  border-color: rgb(241, 0, 0);
+}
+.hide {
+  display: none;
+}
+
+@media only screen and (max-width: 486px) {
+  .profile__row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profile__cell {
+    margin: 0 0 20px 0;
+  }
+
+  .profile__email {
+    margin-right: 5.9rem;
+  }
+  .profile__mobile {
+    margin-right: 4.9rem;
+  }
+  .profile__gender {
+    margin-right: 4.7rem;
+  }
+}

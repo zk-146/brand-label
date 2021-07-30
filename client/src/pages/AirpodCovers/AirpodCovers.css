@@ -1,0 +1,11 @@
+.airpodcovers {
+  display: flex;
+  height: 100vh;
+}
+
+.airpodCovers__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+  width: 100%;
+}

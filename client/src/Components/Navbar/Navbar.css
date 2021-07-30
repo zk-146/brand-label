@@ -1,0 +1,101 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar__container {
+  display: flex;
+  background-color: #a63c3c;
+  height: 5.68rem;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__logo {
+  margin-left: 4rem;
+  cursor: pointer;
+  justify-self: flex-start;
+  align-self: center;
+}
+
+.navbar__mobileCovers {
+  margin-left: 1rem;
+}
+
+.navbar__optionsLeft {
+  /* justify-self: center; */
+  position: relative;
+  /* margin-right: 5rem; */
+}
+
+.navbar__productTypes {
+  display: flex;
+}
+
+.navbar__icon {
+  width: 1.5rem;
+  height: auto;
+}
+
+.navbar__options,
+.navbar__optionsLeft {
+  justify-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__options {
+  margin-right: 3rem;
+}
+
+.cart__totalProducts {
+  position: absolute;
+  top: 16%;
+  right: 34%;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.navbar__option {
+  position: relative;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 0.8rem;
+  color: #000;
+  transition: 300ms ease-out;
+  font-size: 0.9rem;
+  padding: 2.1rem 0;
+  font-weight: 500;
+}
+
+.navbar__optionLeft {
+  padding: 2.1rem 0;
+}
+
+.navbar__optionIconP {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar__option:hover {
+  color: #f0f0f0;
+}
+
+/* @media screen and (max-width: "768px") {
+  .navbar {
+    display: none;
+  }
+} */
+@media screen and (max-width: 768px) {
+  .navbar__container {
+    display: none;
+  }
+}

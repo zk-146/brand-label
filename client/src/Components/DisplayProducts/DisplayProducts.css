@@ -1,0 +1,28 @@
+.displayProducts__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding: 4rem;
+}
+
+.displayProducts__products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.displayProducts__products > div {
+  padding: 0 2rem;
+}
+
+@media screen and (max-width: 425px) {
+  .displayProducts__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .displayProducts__products {
+    flex-direction: column;
+    align-items: center;
+  }
+}

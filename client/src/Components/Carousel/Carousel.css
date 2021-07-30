@@ -1,0 +1,48 @@
+.carousel {
+  position: relative;
+}
+
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  opacity: 100%;
+}
+
+.slick-slide > div > div {
+  padding: 1rem 0rem !important;
+  margin: 0.2rem !important;
+  display: flex !important;
+  justify-content: center;
+  outline: none;
+}
+
+.slides > .slick-prev {
+  left: -3%;
+}
+
+.slides .slick-next {
+  right: -3%;
+}
+
+.images {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.images:hover {
+  transform: scale(1.03);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 4px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slick-dots {
+  top: 18rem;
+}

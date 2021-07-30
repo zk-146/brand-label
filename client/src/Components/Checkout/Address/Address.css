@@ -1,0 +1,90 @@
+.address {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  /* height: max-content; */
+  margin-bottom: 3rem;
+}
+
+.address__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  align-self: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem 5rem;
+  margin-top: 4rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.address__header {
+  align-self: center;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #254159;
+}
+
+.address__lines {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.address__line {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 2rem;
+  /* width: 30rem; */
+}
+
+.address__btn {
+  width: auto;
+}
+
+.link__addressBtn {
+  margin-top: 2rem;
+  align-self: flex-end;
+}
+
+.address__notEntered {
+  margin-top: 1rem;
+  align-self: flex-start;
+  color: rgb(255, 0, 0);
+}
+
+.address__input {
+  /* margin-top: 2rem; */
+}
+
+.input__error {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.savedAddress__radio {
+  margin-top: 2.3rem;
+}
+
+.saved__addressNumber {
+  font-size: 1.3rem;
+}
+
+.savedAddress__detail {
+  margin-top: 1rem;
+}
+
+.savedAddress__detail > p {
+  margin-bottom: 0.3rem;
+}
+
+.savedAddress__textarea {
+  height: 4rem;
+  resize: none;
+  /* width: ; */
+}

@@ -1,0 +1,20 @@
+.wishlist {
+  display: flex;
+  height: max-content;
+}
+
+.wishlist__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  width: 100%;
+  height: max-content;
+}
+
+.wishlist__empty {
+  align-self: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #254159;
+}

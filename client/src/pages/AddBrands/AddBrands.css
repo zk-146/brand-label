@@ -1,0 +1,33 @@
+.addbrands {
+  display: flex;
+  height: 100vh;
+}
+
+.addbrands__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  width: 100%;
+}
+
+.addbrands__functions {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-content: space-evenly;
+  margin: 3.75rem;
+  /* margin-left: 60px; */
+  border-radius: 10px;
+  /* width: 90rem; */
+}
+
+.addbrands__function {
+  margin-top: 1rem;
+}
+
+.addbrands__btn {
+  margin-top: 2rem;
+}

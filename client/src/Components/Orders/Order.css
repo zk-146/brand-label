@@ -1,0 +1,81 @@
+.order {
+  color: #254159;
+}
+
+.order__table {
+  display: flex;
+  flex-direction: column;
+}
+
+.order__row {
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.order__tableHeader {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.order__details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-track {
+  justify-self: flex-end;
+}
+
+.order__cell {
+  display: table-cell;
+  padding: 20px 30px;
+  min-width: 5.5rem;
+}
+
+.order__products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.order__subHeader {
+  font-size: 1.5rem;
+  width: fit-content;
+  font-weight: 500;
+  color: #254159;
+  border-bottom: 1px solid #a9a9a9a9;
+}
+
+/* .account__containerBox {
+  width: 50rem;
+} */
+
+.order__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.order__buttons .btn {
+  margin: 1rem;
+}
+
+.btn-disabled {
+  background-color: #a9a9a9;
+  /* color: black; */
+  border-color: #254159;
+}
+
+.btn-disabled:hover {
+  background-color: #a9a9a9;
+  color: #254159;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.orders__nothingToShow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.orders__nothingToShowText {
+  margin: 3rem;
+}

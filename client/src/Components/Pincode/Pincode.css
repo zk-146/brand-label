@@ -1,0 +1,24 @@
+.pincode__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pincode__container > input {
+  margin-top: 2rem;
+}
+.pincode__container > div {
+  margin-top: 2rem;
+}
+.pincode__container > input:read-only {
+  cursor: not-allowed;
+}
+
+.pincode__input {
+  position: relative;
+}
+
+.pincode__error {
+  position: absolute;
+  left: 0;
+  top: -40%;
+}

@@ -1,0 +1,71 @@
+.signUp {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.signUp__container {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f6f6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  width: 20.6rem;
+  border-radius: 10px;
+}
+
+.signUp__header {
+  margin-bottom: 1.85rem;
+}
+
+.dropdown__menu {
+  padding: 0.625rem;
+  width: 17.5rem;
+  border: 0.5px transparent;
+  border-radius: 5px;
+  box-shadow: inset 6px 6px 4px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 4px 0 rgba(243, 243, 243, 0.5);
+  height: 1.5rem;
+  font-size: 1rem;
+  outline: none;
+  position: relative;
+  background-color: #fff;
+  cursor: default;
+}
+
+.Dropdown-menu {
+  position: absolute;
+  background-color: #f6f6f6;
+  padding: 1.2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  cursor: default;
+  border-radius: 0 0 5px 5px;
+  left: 0;
+  margin-top: 0.75rem;
+  z-index: 5;
+}
+
+.Dropdown-option {
+  margin-top: 0.3rem;
+  cursor: pointer;
+  color: #888888;
+  z-index: 5;
+}
+
+.Dropdown-option:hover {
+  color: #254159;
+}
+
+.PhoneInputInput {
+  padding: 0.625rem;
+  width: 17.5rem;
+  border: 0.5px transparent;
+  border-radius: 5px;
+  box-shadow: inset 6px 6px 4px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 4px 0 rgba(243, 243, 243, 0.5);
+  height: 1.5rem;
+  font-size: 1rem;
+  outline: none;
+}

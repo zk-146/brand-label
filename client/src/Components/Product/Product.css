@@ -1,0 +1,34 @@
+.product {
+  display: flex;
+  /* height: 100vh; */
+}
+
+.product__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  width: 100%;
+}
+
+.noProduct {
+  font-size: 1.5rem;
+  color: #254159;
+  margin: 1rem;
+}
+
+.prfltr__wrapper {
+  display: flex;
+}
+.loadingProducts {
+  width: 100%;
+  align-self: center;
+  margin-top: 3rem;
+}
+
+.btn-filterOption {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  border-radius: 0;
+  z-index: 20;
+}

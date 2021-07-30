@@ -1,0 +1,141 @@
+.sidebar {
+  width: 16.5rem;
+}
+
+.sidebar__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  width: 100%;
+  color: #254159;
+  box-shadow: 0 1px 8px 0 rgb(0 0 0 / 6%);
+}
+
+.sidebar__containerFilterHeader > p {
+  font-size: 1.25em;
+  font-weight: 500;
+  padding: 1.25em;
+}
+
+.sidebar__containerFilter {
+  border-bottom: none;
+  border-top: none;
+  width: 100%;
+}
+
+.sidebar__containerFilter > div:last-child {
+  border: none;
+}
+
+.sidebar__prices,
+.sidebar__colors,
+.sidebar__sizes,
+.sidebar__products {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px solid #a9a9a9;
+  padding-bottom: 0.75em;
+}
+
+.sidebar__prices > p,
+.sidebar__colors > p,
+.sidebar__sizes > p,
+.sidebar__products > p,
+.sidebar__more {
+  margin: 0.31em 1.25em;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.sidebar__more > p {
+  cursor: pointer;
+  width: 6em;
+}
+
+.sidebar__filter {
+  padding: 0.31em 1.25em;
+  font-weight: 400;
+  font-size: 0.81em;
+}
+
+.customCheckbox {
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  position: relative;
+  top: 0.16em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 0.94em;
+  width: 0.94em;
+  transition: all 0.15s ease-out 0s;
+  background: #ffffff;
+  border: none;
+  border: 1px solid #bebebe;
+  border-radius: 0.18em;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5em;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.sidebar__filter > label {
+  padding-right: 4em;
+}
+
+.sidebar__filter > label:hover {
+  cursor: pointer;
+}
+
+.customCheckbox:checked {
+  border: none;
+}
+.customCheckbox:checked::before {
+  height: 1.27em;
+  width: 1.27em;
+  position: absolute;
+  content: "✓";
+  display: inline-block;
+  font-size: 0.75em;
+  background: #a13670;
+  text-align: center;
+  line-height: 1.27em;
+  border-radius: 0.18em;
+}
+
+.customCheckbox:checked::before {
+  height: 1.27em;
+  width: 1.27em;
+  position: absolute;
+  content: "✓";
+  display: inline-block;
+  font-size: 0.75em;
+  background: #a13670;
+  text-align: center;
+  line-height: 1.27em;
+  border-radius: 0.18em;
+}
+
+@media only screen and (max-width: 585px) {
+  .home__filterHeader {
+    display: none;
+  }
+
+  .prfltr__wrapper {
+    margin-bottom: 3.5rem;
+  }
+
+  .home__filter,
+  .sidebar,
+  .sidebar__container {
+    width: 100%;
+    background-color: #fff;
+    margin-right: 0;
+  }
+}

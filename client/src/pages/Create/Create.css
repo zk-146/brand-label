@@ -1,0 +1,95 @@
+.create {
+  display: flex;
+}
+
+.create__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  width: 100%;
+}
+
+.pageHeader {
+  margin: 0 0 1.5rem 2.5rem;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #a9a9a9;
+  /* margin-top: 1em; */
+  padding: 0;
+}
+
+.create__functions {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: space-evenly;
+  margin: 3.75rem;
+  /* margin-left: 60px; */
+  border-radius: 10px;
+  width: 90rem;
+}
+
+.create__functionsLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-create {
+  align-self: flex-end;
+}
+
+.create__functionsRight {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 1.25rem;
+  height: 100%;
+}
+
+.create__descriptionInput {
+  white-space: pre-wrap;
+  resize: none;
+}
+
+.create__functionsRight > div {
+  position: relative;
+}
+
+.create__image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.create__imageFile {
+  visibility: hidden;
+  margin-top: 3rem;
+}
+
+.create__preview {
+  text-align: start;
+  margin-top: 1.87rem;
+}
+
+.previewHeader {
+  font-size: 1.25rem !important;
+  margin-bottom: 0.9rem;
+}
+
+.create__productUploaded {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #254159;
+}
+
+.Dropdown-menu {
+  z-index: 10;
+}

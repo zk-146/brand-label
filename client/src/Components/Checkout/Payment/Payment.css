@@ -1,0 +1,38 @@
+.payment {
+  display: flex;
+  align-self: center;
+  /* height: 100vh; */
+}
+
+.payment__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  align-self: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem 5rem;
+  margin-top: 4rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.payment__contents {
+  display: flex;
+  flex-direction: column;
+}
+.payment__contents > div {
+  margin: 1rem;
+  font-size: 1.1rem;
+  color: #254159;
+  font-weight: 500;
+}
+
+.payment__contents > div > input {
+  margin: 0.5rem;
+}
+
+.payment__notSelected {
+  margin-top: 1rem;
+  align-self: center;
+  color: rgb(255, 0, 0);
+}

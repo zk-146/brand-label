@@ -1,0 +1,37 @@
+.orderPlaced {
+  display: flex;
+  align-self: center;
+}
+
+.orderPlaced__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  align-self: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem 5rem;
+  margin-top: 4rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-size: 1.5rem;
+}
+
+.orderPlaced__message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orderPlaced__message > p {
+  padding: 0 1rem;
+}
+
+.orderPlaced__message .MuiSvgIcon-root {
+  font-size: 3rem;
+  color: #2ecc40;
+}
+
+.orderPlaced__continue {
+  align-self: flex-end;
+}

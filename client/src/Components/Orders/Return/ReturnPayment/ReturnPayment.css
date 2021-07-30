@@ -1,0 +1,28 @@
+.returnPayment__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.returnPayment__inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.returnPayment__inputs > .form__input {
+  margin: 2rem 0 1rem 0;
+}
+
+.returnPayment__btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.returnPayment__btn {
+  margin: 1rem;
+}
+
+.returnPayment__ifscDetails {
+  font-size: 0.8rem;
+  width: 24rem;
+}

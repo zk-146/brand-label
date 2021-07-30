@@ -1,0 +1,35 @@
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+}
+
+.aboutUs__container {
+  display: flex;
+  flex-direction: column;
+  margin: 8rem 0;
+  width: 100%;
+}
+
+.aboutUs__content {
+  margin-top: 2rem;
+  align-self: center;
+  width: 50rem;
+  font-size: 1.1rem;
+}
+
+.aboutUs__para {
+  margin: 0.5rem 0 2.3rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutUs__content {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .aboutUs__content {
+    width: 20rem;
+  }
+}
